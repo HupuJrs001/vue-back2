@@ -6,7 +6,12 @@ let user = [{
     {
         id:2,
         name:'caoqiang'
-    }]
+    },
+    {
+        id:3,
+        name:'qiaoqiao'
+    }
+]
   let server  = http.createServer((req,res)=>{
         res.setHeader('Access-Control-Allow-origin','*');
       if(req.url === '/api/users'){
