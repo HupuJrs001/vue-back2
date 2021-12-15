@@ -9,7 +9,7 @@ let user = [{
     },
     {
         id:3,
-        name:'qiaoqiao'
+        name:'qiaoqiao2'
     }
 ]
   let server  = http.createServer((req,res)=>{
